@@ -415,7 +415,7 @@ while true do
 	            	local lev = tostring(lp.PlayerGui.MainGui.UI.HUD.Anchor.Level.Text)
     				local NewS = string.gsub(lev, "Level ", "")
     				local leve = tonumber(NewS)
-	            	if leve > 20 then
+	            	if leve >= 20 then
 	                    local args = {
 	                        [1] = lp.Character,
 	                        [2] = v,
@@ -445,7 +445,7 @@ while true do
 	            	local lev = tostring(lp.PlayerGui.MainGui.UI.HUD.Anchor.Level.Text)
     				local NewS = string.gsub(lev, "Level ", "")
     				local leve = tonumber(NewS)
-	            	if leve > 20 then
+	            	if leve >= 20 then
 	                    local args = {
 	                        [1] = lp.Character,
 	                        [2] = v,
